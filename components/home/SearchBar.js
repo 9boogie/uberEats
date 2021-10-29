@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import AntDesign from "react-native-vector-icons/AntDesign";
-import keyConfig from "../config";
+import keyConfig from "../../config";
 
 export default function SearchBar({ cityHandler }) {
   return (
